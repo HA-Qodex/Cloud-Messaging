@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="start|center"
+        android:text="Subscribe to"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/sports_Id"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:gravity="start|center"
+        android:text="Sports" />
+
+    <CheckBox
+        android:id="@+id/news_Id"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:gravity="start|center"
+        android:text="News" />
+
+
+    <CheckBox
+        android:id="@+id/tech_Id"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:gravity="start|center"
+        android:text="Tech" />
+
+
+    <CheckBox
+        android:id="@+id/entertainment_Id"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:gravity="start|center"
+        android:text="Entertainment" />
+
+
+</LinearLayout>
